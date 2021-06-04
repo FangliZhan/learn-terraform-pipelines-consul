@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "infrastructure-pipelines-workshop"
+    organization = "dcatcher-learning"
 
     workspaces {
-      name = "john-d-consul"
+      name = "learn-terraform-pipelines-consul"
     }
   }
   required_providers {
